@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Better Screenshot
+  structure:
+    - type: space
+      key: better-screenshot
+      title: Better Screenshot
+      path: docs
+      default: true
+      content:
+        directory: ./docs
+        language: en
