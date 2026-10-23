@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "betterscreenshot",
+	"version": "${version}",
+	"name": "Better Screenshot",
+	"description": "Adds [Upload] and [Copy] buttons to the screenshot message: upload it and get the link, or copy the image to the clipboard.",
+	"authors": [
+		"MaNu"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/betterscreenshot"
+	},
+	"license": "MIT",
+	"icon": "assets/betterscreenshot/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"me.manudev.betterscreenshot.BetterScreenshot"
+		]
+	},
+	"mixins": [
+		"betterscreenshot.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": ">=1.21.8 <=1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

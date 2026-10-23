@@ -1,0 +1,22 @@
+{
+	"betterscreenshot.button.upload": "[Upload]",
+	"betterscreenshot.button.upload.hover": "Upload this screenshot and copy the link",
+	"betterscreenshot.button.copy": "[Copy]",
+	"betterscreenshot.button.copy.hover": "Copy the image to the clipboard",
+	"betterscreenshot.button.copy_link": "[Copy link]",
+	"betterscreenshot.button.copy_link.hover": "Copy the link to the clipboard",
+	"betterscreenshot.button.retry": "[Retry]",
+	"betterscreenshot.link.hover": "Open in browser",
+	"betterscreenshot.uploaded": "Screenshot uploaded:",
+	"betterscreenshot.uploaded.copied": "Screenshot uploaded, link copied:",
+	"betterscreenshot.image.copied": "Screenshot copied to clipboard",
+	"betterscreenshot.toast.uploading": "Uploading screenshot...",
+	"betterscreenshot.toast.done": "Screenshot uploaded!",
+	"betterscreenshot.toast.copied": "Link copied to clipboard",
+	"betterscreenshot.toast.ready": "Link available in chat",
+	"betterscreenshot.toast.failed": "Upload failed",
+	"betterscreenshot.error.upload": "Upload failed: %s",
+	"betterscreenshot.error.copy": "Could not copy the image: %s",
+	"betterscreenshot.error.not_found": "Screenshot not found: %s",
+	"betterscreenshot.config.reloaded": "Better Screenshot config reloaded"
+}
