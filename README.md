@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="docs/.gitbook/assets/icon.png" width="128" alt="Better Screenshot">
+  <img src=".github/assets/banner.png" width="700" alt="Better Screenshot">
 </p>
-
-<h1 align="center">Better Screenshot</h1>
 
 <p align="center">
   Press F2, then choose: <b>[Upload]</b> or <b>[Copy]</b>.<br>
@@ -34,9 +32,31 @@ Better Screenshot upgrades the vanilla screenshot message. The screenshot is sav
 
 See the [docs](docs/README.md): installation, configuration, commands, FAQ.
 
-## Building
+<p>
+  <img src=".github/assets/faq.png" width="260" alt="FAQ">
+</p>
 
-Requires JDK 21.
+**Does it upload my screenshots automatically?**<br>
+No. Nothing is uploaded unless you click **[Upload]**, or you enable `autoUpload` in the config.
+
+**Where are screenshots uploaded?**<br>
+To [catbox.moe](https://catbox.moe) by default (no account needed), or to Imgur with your own Client-ID. Uploaded images are public to anyone who has the link.
+
+**Does it work on servers?**<br>
+Yes. It's client-side only, so it works on any server, including vanilla ones.
+
+**[Copy] doesn't work on Linux.**<br>
+Install `wl-clipboard` (Wayland) or `xclip` (X11).
+
+More answers in the [FAQ page](docs/help/faq.md).
+
+<p>
+  <img src=".github/assets/java.png" width="280" alt="Java">
+</p>
+
+**Requirements:** Java 21, Fabric Loader 0.17.2+ and Fabric API.
+
+**Building:** requires JDK 21.
 
 ```
 ./gradlew build
