@@ -1,4 +1,4 @@
-# 📸 Better Screenshot
+![Better Screenshot](https://raw.githubusercontent.com/Manuelih/BetterScreenshot/main/.github/assets/banner.png)
 
 **Press F2, then choose: `[Upload]` or `[Copy]`.**
 
@@ -10,6 +10,8 @@ Better Screenshot upgrades the vanilla screenshot message. When you press F2 the
 - **[Copy]**: copies the **image itself** to your clipboard, ready to paste into Discord, Telegram, Paint...
 
 No more digging through the `screenshots` folder.
+
+![Screenshot message](https://raw.githubusercontent.com/Manuelih/BetterScreenshot/main/docs/.gitbook/assets/gallery-1-buttons.png)
 
 ## ✨ Features
 
@@ -25,6 +27,8 @@ No more digging through the `screenshots` folder.
 - 💾 Nothing is uploaded unless you click `[Upload]` (or enable auto upload)
 - 🇬🇧 English and 🇮🇹 Italian translations
 - Client-side only: works on any server
+
+![Uploaded](https://raw.githubusercontent.com/Manuelih/BetterScreenshot/main/docs/.gitbook/assets/gallery-2-uploaded.png)
 
 ## ⚙️ Configuration
 
@@ -56,16 +60,30 @@ After editing the file, run `/betterscreenshot reload` in game.
 - `/betterscreenshot copy <file name>`: copy a screenshot image to the clipboard
 - `/betterscreenshot reload`: reload the config
 
-## 🐧 Copy on Linux / macOS
-
-Copying the image uses the system clipboard tools: built in on Windows and macOS. On Linux you need `wl-clipboard` (Wayland) or `xclip` (X11).
-
 ## 🔒 Privacy
 
 This mod **sends a screenshot to a third-party service** (catbox.moe or Imgur, depending on your config) **only when you click `[Upload]`** (or on every F2 if you enable `autoUpload`). Uploaded images are **public to anyone who has the link** and are subject to the host's own terms. Nothing else is collected or sent.
 
-## 📦 Requirements
+<img src="https://raw.githubusercontent.com/Manuelih/BetterScreenshot/main/.github/assets/faq.png" alt="FAQ" width="260">
+
+**Does it upload my screenshots automatically?**
+No. Nothing is uploaded unless you click **[Upload]**, or you enable `autoUpload` in the config.
+
+**Where are screenshots uploaded?**
+To catbox.moe by default (no account needed), or to Imgur with your own Client-ID. Uploaded images are public to anyone who has the link.
+
+**Does it work on servers?**
+Yes. It's client-side only, so it works on any server, including vanilla ones.
+
+**[Copy] doesn't work on Linux.**
+Copying the image uses the system clipboard tools: built in on Windows and macOS. On Linux install `wl-clipboard` (Wayland) or `xclip` (X11).
+
+**Can I delete an uploaded image?**
+catbox.moe anonymous uploads can't be deleted, so don't upload screenshots with personal information you don't want public.
+
+<img src="https://raw.githubusercontent.com/Manuelih/BetterScreenshot/main/.github/assets/java.png" alt="Java" width="280">
 
 - Minecraft **1.21.8 - 1.21.11**
+- **Java 21**
 - [Fabric Loader](https://fabricmc.net/) 0.17.2+
 - [Fabric API](https://modrinth.com/mod/fabric-api)

@@ -59,6 +59,13 @@ public class BetterScreenshot implements ClientModInitializer {
 
 	/** Called on the IO thread when F2 saved a screenshot; returns the chat message that replaces the vanilla one. */
 	public static Text onScreenshotSaved(Text vanillaMessage, File file) {
+		MinecraftClient client = MinecraftClient.getInstance();
+		client.execute(() -> {
+			// The chat is hidden behind most screens, so confirm the save where it can be seen.
+			if (client.currentScreen != null) {
+				Messages.savedInScreen(client, file);
+			}
+		});
 		if (config.autoUpload) {
 			ScreenshotUploader.upload(file);
 		}

@@ -53,6 +53,10 @@ public final class Messages {
 		return text.append(" ").append(button("betterscreenshot.button.copy", Formatting.YELLOW, command("copy", file)));
 	}
 
+	public static void savedInScreen(MinecraftClient client, File file) {
+		toast(client, Text.translatable("betterscreenshot.toast.saved"), Text.literal(file.getName()));
+	}
+
 	public static void uploading(MinecraftClient client) {
 		toast(client, Text.translatable("betterscreenshot.toast.uploading"), Text.literal(BetterScreenshot.config().host));
 	}

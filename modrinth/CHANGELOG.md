@@ -1,3 +1,8 @@
+# 1.0.1
+
+- A "Screenshot saved" notification with the file name now appears when you press F2 inside a GUI (inventory, chests, menus...), where the chat message is hidden
+- The notification follows the `showToasts` option
+
 # 1.0.0
 
 First release, for Minecraft 1.21.8 - 1.21.11.
